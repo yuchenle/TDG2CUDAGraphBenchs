@@ -1,0 +1,1 @@
+main.o: ../common/main.cpp ../include/benchmark.h

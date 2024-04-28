@@ -1,0 +1,4 @@
+main.o: ../../common/main.cpp ../../include/benchmark.h
+kernel.o: kernel.cpp ../../include/benchmark.h datatypes.h timer.h
+tdg_kernel.o: tdg_kernel.cpp ../../include/benchmark.h datatypes.h \
+  timer.h

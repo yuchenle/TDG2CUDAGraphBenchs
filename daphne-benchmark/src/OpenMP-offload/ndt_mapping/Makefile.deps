@@ -1,0 +1,2 @@
+main.o: ../common/main.cpp ../include/benchmark.h
+kernel.o: kernel.cpp ../include/benchmark.h datatypes.h
