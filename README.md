@@ -6,6 +6,15 @@ at run-time, CUDA graphs based on OpenMP target tasks and evaluate
 its performance, comparing to the original target tasking and target 
 threading models.
 
+## Quick Start
+The repo is packed within a docker image where the dependencies are installed.
+It should be easy to reproduce the experiments from that image. The address to download:
+`https://doi.org/10.5281/zenodo.11634155`
+
+The steps to follow is in "artifact.pdf"
+
+The following steps should be avoided, as it makes life more compliated. They are left over
+for consistency purposes.
 
 ## Compilation
 Each application should be compiled separately, as they have their 
