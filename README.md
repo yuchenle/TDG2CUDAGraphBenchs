@@ -1,6 +1,7 @@
 # TDG2CUDAGraphBenchs
 This repository is composed of 6 applications/kernels that make use
 of OpenMP offloading feature.
+These applications are used in the paper: https://dl.acm.org/doi/10.1145/3673038.3673050
 The objective is to assess the ability of Taskgraph framework to generate,
 at run-time, CUDA graphs based on OpenMP target tasks and evaluate
 its performance, comparing to the original target tasking and target 
